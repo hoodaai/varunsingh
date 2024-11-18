@@ -1,0 +1,381 @@
+---
+layout: layouts/base.njk
+title: "Welcome to Varun Singh's Personal Website"
+permalink: index.html
+---
+<!-- <main class="container  bg-texture-dots bg-primary-darkTeal mx-auto flex flex-col flex-wrap items-center px-6 pt-24 md:flex-row md:pt-48">
+ {{ metadata.title }}
+ {{ metadata.description }}
+-->
+<style>
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fadeIn {
+    animation: fadeIn 1s ease forwards;
+  }
+  .delay-1 {
+    animation-delay: 1s;
+  }
+  .delay-2 {
+    animation-delay: 2s;
+  }
+</style>
+
+<div class="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
+  <div>
+    <!-- Stylish and Larger Heading Font -->
+
+    <h1 class="my-4 px-4 py-4 text-center font-extralight leading-tight font-merriweather 
+           text-5xl sm:text-4xl md:text-5xl lg:text-6xl">
+      <span class="inline-block animate-fadeIn delay-0 
+              text-transparent bg-clip-text bg-gradient-to-r from-primary-mintGreen to-white
+              ">
+    Your Success
+  </span>
+      <span class="inline-block animate-fadeIn delay-1 
+              text-transparent bg-clip-text bg-gradient-to-r from-primary-honeyDrew to-white
+              ">
+    is
+  </span>
+      <span class="inline-block animate-fadeIn delay-2 
+              text-transparent bg-clip-text bg-gradient-to-r from-primary-mintGreen to-white
+              ">
+    My Business
+  </span>
+    </h1>
+
+    <p class="font-montserrat mb-8 px-4 text-left text-base
+     text-gray-200 leading-normal md:text-left md:text-xl">
+        Welcome to a partnership built on trust and results. I am Varun Singh, a dedicated real estate broker, entrepreneur, and founder with a passion for helping you achieve your goals. Whether you’re navigating the real estate market or building your business, my mission is to provide unmatched expertise and personalized strategies that lead to your success. Let’s turn your vision into reality together.
+      </p>
+    <!-- Flex Container for Side-by-Side Layout -->
+    <div class="px-4 flex space-x-2 mb-4 items-center">
+      <!-- <input id="email-txtbox" type="text" placeholder="Enter your email" class="flex-grow shadow appearance-none border rounded-lg py-4 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-lg"/>
+-->
+      <button id="get-started-btn" type="submit" 
+      class="font-poppins text-lg rounded-lg text-gray-800 py-4 px-28
+      bg-gradient-to-r from-primary-metallicGold to-primary-metallicGoldTo
+      ">Get Started</button>
+
+    </div>
+  </div>
+
+  <div class="flex justify-center md:justify-end bg-cover bg-right bg-no-repeat " style="background-image: url('bg.svg');">
+    <!-- Right-Aligned Large SVG Image for Mobile -->
+    <img
+        src="/varun-singh.svg"
+        alt="Varun Singh Logo"
+        title="Varun Singh Real Estate Services"
+        class="w-full h-auto sm:w-full md:w-full lg:w-full lg:h-auto"
+        loading="lazy"
+/>
+  </div>
+</div>
+
+<div class="grid place-items-center bg-gradient-to-r from-primary-mintGreen to-primary-mintGreenTo px-4 py-4 lg:mx-8 mx-4 rounded-tl-lg rounded-tr-lg ">
+  <div class="w-full max-w-lg px-4 text-left bg-no-repeat" >
+    <h1 class="text-4xl mb-4 font-merriweather">Hi I'M Varun</h1>
+    <p class="text-lg mb-6">
+      With a strong foundation in software development and over 15 years of experience, I've combined my technical expertise with a passion for real estate to create innovative solutions that drive success. My journey into
+real estate and entrepreneurship is fueled by a commitment to excellence, integrity, and a desire to help others achieve their goals. At the heart of my work is a belief in the power of data-driven insights and personalized service to transform the real estate experience
+
+    </p>
+
+    <button id="get-started-btn" type="submit" 
+      class="text-lg rounded-lg font-bold py-4 px-24
+      bg-gradient-to-r  from-primary-SoftSage to-primary-mintGreenTo  text-gray-500 
+      ">Learn more</button>
+  </div>
+</div>
+
+<div class="grid sm:grid-cols-1 md:grid-cols-2 gap-4 bg-gradient-to-r from-primary-mintGreen to-primary-mintGreenTo px-4 py-4 lg:mx-8 mx-4  rounded-bl-lg rounded-br-lg ">
+  <div>
+    <!-- Stylish and Larger Heading Font -->
+    <h1 class="my-4 text-left text-5xl font-extrabold leading-tight
+
+     text-primary-emeraldGreenTo md:text-left md:text-6xl font-merriweather">
+       Unlock Your Dream Home with Expert Guidance
+      </h1>
+
+    <!-- Flex Container for Side-by-Side Layout -->
+    <div class="flex space-x-2 mb-4">
+
+      <button id="get-started-btn" type="submit" 
+      class="text-lg rounded-lg text-white font-bold py-4 px-6
+      bg-gradient-to-r from-primary-emeraldGreen to-primary-emeraldGreenTo
+      ">Find out more</button>
+    </div>
+  </div>
+
+  <div class="flex justify-left md:justify-start bg-cover bg-right bg-no-repeat w-full h-full">
+    <!-- Right-Aligned Large SVG Image for Mobile -->
+    <img
+        src="/home.svg"
+        alt="Buy Home with the expert guidance of Varun Singh - a Real estate licensed Broker"
+        title="Varun Singh Real Estate Services"
+        class="w-full h-auto sm:w-full md:w-full lg:w-96"
+        loading="lazy"/>
+  </div>
+</div>
+
+<div class="grid sm:grid-cols-1 md:grid-cols-2 gap-4
+bg-gradient-to-r from-primary-darkTeal to-primary-darkTealTo px-4 py-4 lg:mx-8 mx-0">
+  <div class="bg-no-repeat" style="background-image: url('analytics-bg.svg');">
+    <!-- Stylish and Larger Heading Font -->
+    <h1 class="my-4 text-left text-5xl font-extrabold leading-tight text-primary-honeyDrew md:text-left md:text-6xl font-merriweather">
+        Invest in Future with Data Driven Insights
+      </h1>
+    <p class="font-montserrat mb-6 px-1 text-left text-base text-primary-honeyDrew leading-normal md:text-left md:text-xl">
+      
+Transform your investments with cutting-edge data-driven insights.
+ Leveraging advanced analytics and market trends, I provide actionable insights
+ to help you make informed decisions and maximize your returns. 
+Invest smartly and secure your financial future with expert guidance—let’s get started today!    </p>
+    <!-- Flex Container for Side-by-Side Layout -->
+    <div class="flex space-x-2 mb-4 float-right">
+
+      <button id="get-started-btn" type="submit" 
+      class="text-lg rounded-lg text-gray-500 font-bold py-4 px-6 mx-9
+      bg-gradient-to-r from-primary-LavenderBlush to-primary-PowderPink
+      ">Find out more</button>
+    </div>
+  </div>
+
+  <div class="flex justify-left md:justify-start bg-cover bg-right bg-no-repeat w-full h-full">
+    <!-- Right-Aligned Large SVG Image for Mobile -->
+    <img
+        src="/analytics.svg"
+        alt="Buy Home with the expert guidance of Varun Singh - a Real estate licensed Broker"
+        title="Varun Singh Real Estate Services"
+        class="w-full h-auto sm:w-full md:w-72 lg:w-full"
+        loading="lazy"/>
+  </div>
+</div>
+
+<div class="grid sm:grid-cols-1 md:grid-cols-2 gap-4 bg-gradient-to-r from-primary-mintGreen to-primary-mintGreenTo px-4 py-4 lg:mx-0 mx-0">
+  <div>
+    <!-- Stylish and Larger Heading Font -->
+    <h1 class="my-4 text-left text-5xl font-extrabold leading-tight text-primary-metallicGold md:text-left md:text-6xl font-merriweather">
+      Your Vision, our expertise in Real Estate Investment
+      </h1>
+    <p class="font-montserrat mb-6 px-1 text-left text-base text-gray-800 leading-normal md:text-left md:text-xl">
+    Bring your real estate investment vision to life with our expert guidance. Combining your goals with our extensive market knowledge and strategic insights, we’ll help you identify lucrative opportunities and navigate the investment landscape. Partner with us to achieve your investment
+objectives and build a prosperous future.
+
+    </p>
+
+    <!-- Flex Container for Side-by-Side Layout -->
+    <div class="flex space-x-2 mb-4">
+
+      <button id="get-started-btn" type="submit" 
+      class="text-lg rounded-lg bg-gradient-to-r from-primary-SoftSage to-primary-mintGreenTo  text-gray-500 font-bold py-4 px-6">Find out more</button>
+    </div>
+  </div>
+
+  <div class="flex justify-left md:justify-start bg-cover bg-right bg-no-repeat w-full h-full">
+    <!-- Right-Aligned Large SVG Image for Mobile -->
+    <img
+        src="/family.svg"
+        alt="Buy Home with the expert guidance of Varun Singh - a Real estate licensed Broker"
+        title="Varun Singh Real Estate Services"
+        class="w-full h-auto sm:w-full md:w-full lg:w-96"
+        loading="lazy"/>
+  </div>
+</div>
+
+<div class="grid place-items-left bg-gradient-to-r from-primary-deepGreen to-primary-deepGreenTo px-4 py-4 lg:mx-0 mx-0">
+  <div class="w-full px-4 text-center">
+    <h2 class="text-center text-primary-metallicGold text-3xl lg:text-5xl mb-4 font-merriweather">Expertise & Services</h2>
+  </div>
+
+  <div class="grid grid-cols-2 gap-4 px-4 py-4 lg:mx-0 mx-0">
+    <!-- First Service -->
+    <div class="flex flex-col items-left text-left">
+      <div class="flex justify-center items-center w-40 h-40 mb-4">
+        <img
+          src="/Asset 2.svg"
+          alt="Buy Home with the expert guidance of Varun Singh - a Real estate licensed Broker"
+          title="Varun Singh Real Estate Services"
+          class="w-full h-auto"
+          loading="lazy"/>
+      </div>
+      <h4 class="my-4 text-2xl font-extrabold leading-tight text-white font-merriweather">
+        Real Estate Brokerage
+      </h4>
+      <a href="#" class="text-white">Buying & Selling</a>
+
+      <a href="#" class="text-white">Market Analysis</a>
+    </div>
+
+    <!-- Second Service -->
+    <div class="flex flex-col items-left text-left">
+      <div class="flex justify-center items-center w-40 h-40 mb-4">
+        <img
+          src="/Asset 4.svg"
+          alt="Investment Consulting with Varun Singh"
+          title="Varun Singh Real Estate Services"
+          class="w-full h-auto"
+          loading="lazy"/>
+      </div>
+      <h4 class="my-4 text-2xl font-extrabold leading-tight text-white font-merriweather">
+        Real Estate Investment
+      </h4>
+      <a href="#" class="text-white text-left">Investment Strategies</a>
+
+      <a href="#" class="text-white text-left" >Valuation Insight</a>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 gap-4 px-4 py-4 lg:mx-0 mx-0">
+    <!-- Third Service -->
+    <div class="flex flex-col items-left text-left">
+      <div class="flex justify-center items-center w-40 h-40 mb-4">
+        <img
+          src="/Asset 3.svg"
+          alt="Buy Home with the expert guidance of Varun Singh - a Real estate licensed Broker"
+          title="Varun Singh Real Estate Services"
+          class="w-full h-auto"
+          loading="lazy"/>
+      </div>
+      <h4 class="my-4 text-2xl font-extrabold leading-tight text-white font-merriweather">
+        Technology & Innovation in Real Estate
+      </h4>
+      <a href="#" class="text-white">PropTech Solution</a>
+
+      <a href="#" class="text-white">Marketing & Branding</a>
+    </div>
+
+    <!-- Fourth Service -->
+    <div class="flex flex-col items-left text-left">
+      <div class="flex justify-center items-center w-40 h-40 mb-4">
+        <img
+          src="/Asset 5.svg"
+          alt="Investment Consulting with Varun Singh"
+          title="Varun Singh Real Estate Services"
+          class="w-full h-auto"
+          loading="lazy"/>
+      </div>
+      <h4 class="my-4 text-2xl font-extrabold leading-tight text-white font-merriweather">
+     Entrepreneurial Support & Advisory
+      </h4>
+      <a href="#" class="text-white text-left">Business Development</a>
+
+      <a href="#" class="text-white text-left" >Strategic Planning</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="grid place-items-center bg-gradient-to-r from-primary-deepGreen to-primary-deepGreenTo px-0 py-4 lg:mx-0 mx-0">
+  <div 
+    class="z-40  w-full h-20 md:h-38  sm:h-38 lg:h-52 px-4 text-center bg-cover bg-no-repeat" 
+    style="background-image: url('/Asset 12.svg');">
+    <div class=" py-16">
+      <h2 class="text-center text-white text-3xl lg:text-5xl font-merriweather lg:py-32">Are you a Broker ?</h2>
+    </div>
+  </div>
+  <div class=" bg-primary-greenColor w-full h-auto lg:h-auto px-4 py-0 text-center" >
+    <div class=" py-4 lg:py-2">
+      <h2 class="text-center text-primary-metallicGold text-3xl lg:text-4xl mb-4 font-merriweather lg:py-14 lg:pb-1">Empower your Business with Nxmove</h2>
+      <p class="font-montserrat mb-2 px-4 text-left text-base
+     text-gray-200 leading-normal md:text-left md:text-xl">
+     Unlock the full potential of your brokerage with NexMove—your ultimate partner in real estate marketing and sales. Developed by industry experts, NexMove equips brokers with cutting-edge tools, data-driven insights, and tailored strategies to elevate your business. Stay ahead of the competition, enhance client relationships, and drive growth like never before.  
+      </p>
+      <button id="get-started-btn" type="submit" 
+      class="font-poppins text-lg rounded-lg text-gray-800 py-4 px-24
+      bg-gradient-to-r from-primary-metallicGold to-primary-metallicGoldTo
+      ">Discover Nxmove</button>
+    </div>
+
+    <div class=" py-4 lg:py-2">
+      <h2 class="text-center text-primary-metallicGold text-3xl lg:text-4xl mb-4 font-merriweather lg:pt-8 lg:pb-1">Grow your business with Scootagent</h2>
+      <p class="font-montserrat mb-2 px-4 text-left text-base
+     text-gray-200 leading-normal md:text-left md:text-xl">
+     Take your real estate business to the next level with ScootAgent, your trusted marketplace for connecting with top clients and brokers. Whether you're looking to expand your network, close deals faster, or access exclusive leads, ScootAgent offers the platform and support you need to thrive in a competitive market. 
+      </p>
+      <button id="get-started-btn" type="submit" 
+      class="font-poppins text-lg rounded-lg text-gray-800 py-4 px-20
+      bg-gradient-to-r from-primary-metallicGold to-primary-metallicGoldTo
+      ">Partner with us</button>
+    </div>
+
+  </div>
+</div>
+
+<div class="grid place-items-left bg-gradient-to-r from-primary-midnightGreen to-primary-midnightGreenTo px-4 py-4 lg:mx-0 mx-0">
+  <div class="w-full px-4 text-center">
+    <h2 class="text-center text-primary-metallicGold text-3xl lg:text-5xl mb-4 font-merriweather">What Client Says</h2>
+  </div>
+
+  <div class="grid grid-cols-1 gap-4 px-4 py-4 lg:mx-0 mx-0">
+
+    <div class="flex flex-col items-left text-left">
+      <div class="flex justify-center items-center w-28 h-3 mb-2">
+        <img
+          src="/five-star.svg"
+          alt="Buy Home with the expert guidance of Varun Singh - a Real estate licensed Broker"
+          title="Varun Singh Real Estate Services"
+          class="w-full h-auto"
+          loading="lazy"/>
+      </div>
+      <h4 class="my-4 text-2xl font-extrabold leading-tight text-white font-merriweather">
+       Excellent service!!!
+      </h4>
+      <p class="font-montserrat mb-2 px-0 text-left text-base
+     text-gray-200 leading-normal md:text-left md:text-xl">Working with Varun Singh was an absolute pleasure. His deep expertise in real estate and data analytics transformed our buying experience into a seamless process. Varun’s commitment to excellence and personalized approach truly sets him apart. I highly recommend him to anyone looking for top-tier real estate services</p>
+    </div>
+
+  </div>
+  </div>
+  <div class="grid place-items-center bg-gradient-to-r from-primary-mintGreen to-primary-mintGreenTo py-4 px-0 lg:mx-0 mx-0">
+  <div class="w-full text-center">
+    <h2 class="text-center text-primary-metallicGold text-3xl lg:text-5xl mb-4 font-merriweather">Get in touch</h2>
+  </div>
+
+  <div class="grid grid-cols-1 gap-4 px-4 py-4 lg:mx-0 mx-0">
+    <div class="flex flex-col items-left text-left mb-4">
+      <p class="font-montserrat mb-2 text-left text-base text-gray-800 leading-normal md:text-left md:text-xl">
+        Ready to achieve your goals? Let’s connect.
+      </p>
+      <p class="font-montserrat mb-2 text-left text-base text-gray-800 leading-normal md:text-left md:text-xl">
+        Whether it’s real estate advice or a new venture, I’m here to help.
+      </p>
+      <p class="font-montserrat mb-2 text-left text-base text-gray-800 leading-normal md:text-left md:text-xl">
+        Reach out, and let’s make great things happen together.
+      </p>
+    </div>
+
+    <!-- Input fields displayed side by side -->
+    <div class="flex flex-wrap gap-4">
+      <input 
+        type="text" 
+        placeholder="Your Name"
+        class="w-full lg:w-1/2 p-4 rounded-lg shadow border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary-metallicGold"
+      />
+      <input 
+        type="email" 
+        placeholder="Your Email"
+        class="w-full lg:w-1/2 p-4 rounded-lg shadow border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary-metallicGold"
+      />
+    </div>
+
+    <!-- Submit Button -->
+    <button 
+      id="get-started-btn" 
+      type="submit" 
+      class="font-poppins text-lg rounded-lg text-gray-800 py-4 px-20 mt-4 bg-gradient-to-r from-primary-metallicGold to-primary-metallicGoldTo"
+    >
+      Submit
+    </button>
+  </div>
+</div>

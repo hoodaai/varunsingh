@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ '/site.css' | url }}"/>
+    <meta name="keywords" content="real estate, varun singh, realtor, entrepreneurship">
+    <meta name="author" content="Varun Singh">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <link rel="canonical" href="{{ canonical }}">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="{{ title }}"/>
+    <meta property="og:description" content="{{ description }}"/>
+    <meta property="og:url" content="{{ canonical }}"/>
+    <meta property="og:image" content="{{ og_image }}"/>
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content=""/>
+    <meta name="twitter:site" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:description" content=""/>
+    <meta name="twitter:image" content=""/>
+
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Organization",
+        "url": "{{ canonical }}",
+        "name": "{{ title }}",
+        "author": {
+          "@type": "Person",
+          "name": "Varun Singh"
+        },
+        "url": "https://singhvarun.com",
+        "logo": "https://singhvarun.com/logo.svg",
+        "sameAs": [
+          "https://www.facebook.com/VarunSinghRealEstate", "https://twitter.com/VarunSinghRE", "https://www.linkedin.com/in/varun-singh-re"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "{{ telephone }}",
+          "contactType": "Customer Service"
+        },
+        "datePublished": "2018-03-10",
+        "description": "{{ description }}",
+        "prepTime": "PT20M"
+      }
+    </script>
+
+    <!-- JavaScript -->
+    <script src="{{ '/theme.js' | url }}"></script>
+    <!-- Link Google Fonts in <head> section -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body class="flex flex-col min-h-screen">
+
+    <!-- Header -->
+    <header>
+      {% include "partials/header.njk" %}
+    </header>
+
+    <!-- Main Content Area with Flex Grow 
+        <main class="flex-grow  mx-auto p-4">
+    -->
+    <main class="flex-grow bg-primary-darkTeal pt-24 bg-gradient-to-r from-primary-darkTeal to-primary-darkTealTo">
+      {{ content | safe }}
+    </main>
+
+    <!-- Footer at the Bottom -->
+    <footer>
+      {% include "partials/footer.njk" %}
+    </footer>
+
+  </body>
+</html>

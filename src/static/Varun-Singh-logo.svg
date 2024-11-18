@@ -1,0 +1,35 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 926 602">
+  <defs>
+    <dc:title>Varun Singh Logo</dc:title>
+    <dc:creator>Varun Singh</dc:creator>
+    <dc:description>Real estate professional logo for Varun Singh.</dc:description>
+  
+    <style>
+      .cls-1 { letter-spacing: .02em; }
+      .cls-2 { letter-spacing: -.03em; }
+      .cls-3 { letter-spacing: -.13em; }
+      .cls-4 { letter-spacing: -.03em; }
+      .cls-5 { letter-spacing: -.02em; }
+      .cls-6 { letter-spacing: .01em; }
+      .cls-7 { letter-spacing: -.02em; }
+      .cls-8 {
+        fill: #d4af37;
+        font-family: BodoniSvtyTwoSCITCTT-Book, 'Bodoni 72 Smallcaps';
+        font-size: 388.14px;
+      }
+      .cls-9 { letter-spacing: 0em; }
+    </style>
+  </defs>
+  <text class="cls-8" transform="translate(14.76 281.61)">
+    <tspan class="cls-3" x="0" y="0">V</tspan>
+    <tspan class="cls-1" x="195.58" y="0">a</tspan>
+    <tspan class="cls-2" x="374.24" y="0">r</tspan>
+    <tspan class="cls-6" x="530.54" y="0">u</tspan>
+    <tspan x="721.19" y="0">n </tspan>
+    <tspan class="cls-5" x="0" y="305.8">S</tspan>
+    <tspan class="cls-9" x="184.71" y="305.8">i</tspan>
+    <tspan class="cls-4" x="279.26" y="305.8">n</tspan>
+    <tspan class="cls-7" x="452.05" y="305.8">g</tspan>
+    <tspan x="626.17" y="305.8">h</tspan>
+  </text>
+</svg>
