@@ -850,10 +850,6 @@ select {
   margin-top: 0.25rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -1314,16 +1310,8 @@ select {
   padding-right: 2rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
-}
-
 .pt-24 {
   padding-top: 6rem;
-}
-
-.pt-12 {
-  padding-top: 3rem;
 }
 
 .pt-8 {
@@ -1387,11 +1375,6 @@ select {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
