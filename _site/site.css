@@ -2022,22 +2022,6 @@ select {
   text-decoration-line: underline;
 }
 
-.no-underline {
-  text-decoration-line: none;
-}
-
-.decoration-sky-500\/30 {
-  text-decoration-color: rgb(14 165 233 / 0.3);
-}
-
-.decoration-red-500\/30 {
-  text-decoration-color: rgb(239 68 68 / 0.3);
-}
-
-.decoration-red-500 {
-  text-decoration-color: #ef4444;
-}
-
 .decoration-sky-500 {
   text-decoration-color: #0ea5e9;
 }
